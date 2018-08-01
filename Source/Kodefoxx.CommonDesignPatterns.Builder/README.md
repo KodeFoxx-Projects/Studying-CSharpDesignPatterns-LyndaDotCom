@@ -18,7 +18,7 @@ The `StringBuilder` is a good example of a class that builds or constructs an ob
 
    Console.WriteLine(stringBuilder);
 ```
-_OUTPUT:_
+**OUTPUT:**
 ```   
 	<p>Hello!</p>
 ```
