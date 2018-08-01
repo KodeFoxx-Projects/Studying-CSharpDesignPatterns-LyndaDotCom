@@ -6,3 +6,20 @@
 - Given an API for "building" or "constructing" an object.
 - Hold control over creation and how a user can created an object.
 
+### Example of builder pattern in .NET Framework
+The `StringBuilder` is a good example of a class that builds or constructs an object via a given API:
+```
+   var message = "Hello!";
+   var stringBuilder = new StringBuilder();
+
+   stringBuilder.Append("<p>");
+   stringBuilder.Append(message);
+   stringBuilder.Append("</p>");
+
+   Console.WriteLine(stringBuilder);
+```
+*OUTPUT:*
+```
+   
+    > <p>Hello!</p>
+```
