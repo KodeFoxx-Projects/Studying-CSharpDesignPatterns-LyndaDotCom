@@ -8,6 +8,7 @@
 
 ### Example of builder pattern in .NET Framework
 The `StringBuilder` is a good example of a class that builds or constructs an object via a given API.
+
 --> **Code example:**
 ```
    var message = "Hello!";
