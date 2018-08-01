@@ -7,7 +7,8 @@
 - Hold control over creation and how a user can created an object.
 
 ### Example of builder pattern in .NET Framework
-The `StringBuilder` is a good example of a class that builds or constructs an object via a given API:
+The `StringBuilder` is a good example of a class that builds or constructs an object via a given API.
+--> **Code example:**
 ```
    var message = "Hello!";
    var stringBuilder = new StringBuilder();
@@ -18,7 +19,7 @@ The `StringBuilder` is a good example of a class that builds or constructs an ob
 
    Console.WriteLine(stringBuilder);
 ```
-**OUTPUT:**
+ --> **Ouput:**
 ```   
 	<p>Hello!</p>
 ```
