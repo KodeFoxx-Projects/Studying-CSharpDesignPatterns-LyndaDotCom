@@ -9,7 +9,7 @@ namespace Kodefoxx.Studying.CsDesignPatterns.FactoryMethod.EmailAddressGenerator
     {
         /// <inheritdoc />        
         public string GenerateEmailAddress(Account account, string domain)
-            => $"{account.Person.FirstName}.{account.Person.LastName}@.{domain}"
+            => $"{account.Person.FirstName}.{account.Person.LastName}@{domain}"
                 .ToLower().Trim()
         ;
     }
