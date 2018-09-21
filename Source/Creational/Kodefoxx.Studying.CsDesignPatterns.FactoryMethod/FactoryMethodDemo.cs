@@ -33,13 +33,23 @@ namespace Kodefoxx.Studying.CsDesignPatterns.FactoryMethod
             var accounts = new Account[] {
                 new Account(AccountType.Staff, person),
                 new Account(AccountType.Student, person),
-            }.ToList();
+            }.ToList();            
 
             var emailAddressGeneratorFactory = serviceProvider.GetService<IEmailAddressGeneratorFactory>();
-            accounts.Select(a => emailAddressGeneratorFactory
-                .GetEmailAddressGenerator(a)
-                .GenerateEmailAddress(a, "kdg.be")
-            ).ToList().ForEach(log.WriteLine);
+            var emailAddressesPerAccount = accounts.Select(a => 
+                new {
+                    EmailAddress = emailAddressGeneratorFactory
+                        .GetEmailAddressGenerator(a)
+                        .GenerateEmailAddress(a, "company.com"),
+                    Account = a
+                }
+            ).ToList();
+
+            foreach (var accountWithEmailAddress in emailAddressesPerAccount)
+            {
+                log.WriteLine($"For account '{accountWithEmailAddress.Account}':");
+                log.WriteLine($" '{accountWithEmailAddress.EmailAddress}'");
+            }
         }
     }
 }
