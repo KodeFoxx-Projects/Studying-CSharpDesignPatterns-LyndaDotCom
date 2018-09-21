@@ -1,4 +1,7 @@
-﻿namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Infrastructure.ConsoleDemo
+﻿using System;
+using System.IO;
+
+namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Infrastructure.ConsoleDemo
 {
     /// <summary>
     /// Base implementation for a <see cref="IDemo"/>.
@@ -23,6 +26,6 @@
         }
 
         /// <inheritdoc />
-        public abstract void Run();
+        public abstract void Run(TextWriter log);
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using Kodefoxx.Studying.CsDesignPatterns.FactoryMethod.EmailAddressGenerator;
 using Kodefoxx.Studying.CsDesignPatterns.Shared.Domain;
@@ -21,7 +22,7 @@ namespace Kodefoxx.Studying.CsDesignPatterns.FactoryMethod
         { }
 
         /// <inheritdoc />
-        public override void Run()
+        public override void Run(TextWriter log)
         {
             var serviceProvider = new ServiceCollection()
                 .AddTransient<IEmailAddressGeneratorFactory, DefaultEmailAddressGeneratorFactory>()
@@ -38,7 +39,7 @@ namespace Kodefoxx.Studying.CsDesignPatterns.FactoryMethod
             accounts.Select(a => emailAddressGeneratorFactory
                 .GetEmailAddressGenerator(a)
                 .GenerateEmailAddress(a, "kdg.be")
-            ).ToList().ForEach(Console.WriteLine);
+            ).ToList().ForEach(log.WriteLine);
         }
     }
 }

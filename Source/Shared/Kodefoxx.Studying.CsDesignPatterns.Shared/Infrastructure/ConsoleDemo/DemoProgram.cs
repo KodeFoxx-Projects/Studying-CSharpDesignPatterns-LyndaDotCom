@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Text;
 
 namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Infrastructure.ConsoleDemo
 {
@@ -50,7 +52,7 @@ namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Infrastructure.ConsoleDemo
                 GetDemos().ToList().ForEach(demo =>
                 {
                     var headerAndFooter = GetHeaderAndFooter(demo);
-                    Console.WriteLine(headerAndFooter.Header);
+                    Console.WriteLine(headerAndFooter.Header);                    
                     RunDemo(demo);
                     Console.WriteLine(headerAndFooter.Footer);
                 });
@@ -68,18 +70,31 @@ namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Infrastructure.ConsoleDemo
         /// <returns>A tuple containing the header and footer.</returns>
         private (string Header, string Footer) GetHeaderAndFooter(IDemo demo)
         {
-            var lineWidth = Console.WindowWidth;
+            var padding = "  ";
+            var lineWidth = (Console.WindowWidth + (padding.Length * 2)) /2;            
 
-            var footer = new string('=', lineWidth);
+            var footer = $"{padding}{new string('=', lineWidth)}{padding}";
             var headerText = $" {demo.Pattern} ";
             var headerFiller = new string('=', (lineWidth - headerText.Length) / 2);
-            var header = $"{headerFiller}{headerText}{headerFiller}";
+            var header = $"{padding}{headerFiller}{headerText}{headerFiller}{padding}";
+
+            if (header.Length != footer.Length)
+                header = $"{header.Substring(0, lineWidth)}=={padding}";
 
             return (header, footer);
         }
 
         /// <inheritdoc cref="IDemoRunner"/>
-        public abstract void RunDemo(IDemo demo);
+        public virtual void RunDemo(IDemo demo)
+        {
+            var log = new StringBuilder();
+            var logWriter = new StringWriter(log);
+
+            demo.Run(logWriter);
+
+            foreach (var line in log.ToString().Split(new [] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries))
+                Console.WriteLine($"    {line}");            
+        }        
 
         /// <inheritdoc cref="IDemoRunner"/>
         public abstract void RegisterAssemblies();        

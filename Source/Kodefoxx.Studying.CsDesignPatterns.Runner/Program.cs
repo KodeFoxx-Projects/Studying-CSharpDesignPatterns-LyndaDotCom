@@ -13,10 +13,6 @@ namespace Kodefoxx.Studying.CsDesignPatterns.Runner
             Console.ReadLine();
         }
 
-        public override void RunDemo(IDemo demo)
-        {            
-        }
-
         public override void RegisterAssemblies()
         {
             RegisterAssemblyByType<FactoryMethodDemo>();

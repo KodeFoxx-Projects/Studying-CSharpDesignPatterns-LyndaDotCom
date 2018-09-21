@@ -1,4 +1,7 @@
-﻿namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Infrastructure.ConsoleDemo
+﻿using System;
+using System.IO;
+
+namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Infrastructure.ConsoleDemo
 {
     /// <summary>
     /// Defines a demonstration.
@@ -18,6 +21,6 @@
         /// <summary>
         /// The actual <see cref="System.Console"/> implementation of the demo.
         /// </summary>
-        void Run();
+        void Run(TextWriter log);
     }
 }
