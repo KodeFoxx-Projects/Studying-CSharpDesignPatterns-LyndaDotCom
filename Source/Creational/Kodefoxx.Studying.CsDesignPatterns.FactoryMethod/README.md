@@ -1,4 +1,4 @@
-## Abstract Factory
-Providing an interface for creating families of related or dependent objects without specifying their concrete classes. A higher level of abstraction, and it's like a factory for factories...
+## Factory Method
+Define an interface for creating an object, but let subclasses decide which class to instantiate. This lets a class defer instantiation to subclasses.
 
-<img src="AbstractFactoryDiagram.jpg"/>
+<img src="FactoryMethodDiagram.jpg"/>
