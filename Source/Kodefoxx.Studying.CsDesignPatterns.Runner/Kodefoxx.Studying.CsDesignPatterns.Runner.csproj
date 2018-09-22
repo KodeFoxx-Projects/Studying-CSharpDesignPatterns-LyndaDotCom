@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Behavioral\Kodefoxx.Studying.CsDesignPatterns.Iterator\Kodefoxx.Studying.CsDesignPatterns.Iterator.csproj" />
+    <ProjectReference Include="..\Behavioral\Kodefoxx.Studying.CsDesignPatterns.Observer\Kodefoxx.Studying.CsDesignPatterns.Observer.csproj" />
     <ProjectReference Include="..\Creational\Kodefoxx.Studying.CsDesignPatterns.FactoryMethod\Kodefoxx.Studying.CsDesignPatterns.FactoryMethod.csproj" />
     <ProjectReference Include="..\Creational\Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto\Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto.csproj" />
     <ProjectReference Include="..\Shared\Kodefoxx.Studying.CsDesignPatterns.Shared\Kodefoxx.Studying.CsDesignPatterns.Shared.csproj" />
