@@ -1,14 +1,12 @@
 ﻿using System.IO;
 using Kodefoxx.Studying.CsDesignPatterns.Iterator.News;
 using Kodefoxx.Studying.CsDesignPatterns.Iterator.Newsletters;
-using Kodefoxx.Studying.CsDesignPatterns.Shared.Domain.Courses;
-using Kodefoxx.Studying.CsDesignPatterns.Shared.Domain.Courses.Modules;
 using Kodefoxx.Studying.CsDesignPatterns.Shared.Infrastructure.ConsoleDemo;
 
 namespace Kodefoxx.Studying.CsDesignPatterns.Iterator
 {
     /// <summary>
-    /// Demo showcasing the Abstract Factory.
+    /// Demo showcasing the Iterator.
     /// </summary>
     public sealed class IteratorDemo : Demo
     {

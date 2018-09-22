@@ -6,7 +6,7 @@ using Kodefoxx.Studying.CsDesignPatterns.Shared.Infrastructure.ConsoleDemo;
 namespace Kodefoxx.Studying.CsDesignPatterns.Decorator
 {
     /// <summary>
-    /// Demo showcasing the Abstract Factory.
+    /// Demo showcasing the Decorator.
     /// </summary>
     public sealed class DecoratorDemo : Demo
     {
