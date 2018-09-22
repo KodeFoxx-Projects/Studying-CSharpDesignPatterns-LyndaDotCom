@@ -10,5 +10,6 @@ Sutyding &amp; example repo of common design patterns: https://www.lynda.com/C-t
 
 ## Behavioral [>](https://github.com/KodeFoxx-Projects/Studying-CSharpDesignPatterns-LyndaDotCom/tree/master/Source/Behavioral)
 - [Iterator](https://github.com/KodeFoxx-Projects/Studying-CSharpDesignPatterns-LyndaDotCom/tree/master/Source/Behavioral/Kodefoxx.Studying.CsDesignPatterns.Iterator)
+- [Observer](https://github.com/KodeFoxx-Projects/Studying-CSharpDesignPatterns-LyndaDotCom/tree/master/Source/Behavioral/Kodefoxx.Studying.CsDesignPatterns.Observer)
 
 <img src="DesignPatternCategories.jpg"/>
