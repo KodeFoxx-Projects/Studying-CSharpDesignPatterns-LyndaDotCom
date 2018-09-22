@@ -9,6 +9,7 @@
     <ProjectReference Include="..\Creational\Kodefoxx.Studying.CsDesignPatterns.FactoryMethod\Kodefoxx.Studying.CsDesignPatterns.FactoryMethod.csproj" />
     <ProjectReference Include="..\Creational\Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto\Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto.csproj" />
     <ProjectReference Include="..\Shared\Kodefoxx.Studying.CsDesignPatterns.Shared\Kodefoxx.Studying.CsDesignPatterns.Shared.csproj" />
+    <ProjectReference Include="..\Structural\Kodefoxx.Studying.CsDesignPatterns.Decorator\Kodefoxx.Studying.CsDesignPatterns.Decorator.csproj" />
   </ItemGroup>
 
 </Project>

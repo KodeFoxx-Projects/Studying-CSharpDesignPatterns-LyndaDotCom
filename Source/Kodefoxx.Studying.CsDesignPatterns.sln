@@ -11,19 +11,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{7D30E41A-2D67-4C07-ABE6-B5B95CAA3E8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kodefoxx.Studying.CsDesignPatterns.FactoryMethod", "Creational\Kodefoxx.Studying.CsDesignPatterns.FactoryMethod\Kodefoxx.Studying.CsDesignPatterns.FactoryMethod.csproj", "{8F7A95B9-E270-46D0-B712-FA55A730B12D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kodefoxx.Studying.CsDesignPatterns.FactoryMethod", "Creational\Kodefoxx.Studying.CsDesignPatterns.FactoryMethod\Kodefoxx.Studying.CsDesignPatterns.FactoryMethod.csproj", "{8F7A95B9-E270-46D0-B712-FA55A730B12D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{9F22FDBF-0324-409C-8704-CA6B40847972}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{D8AEE7F8-6256-4F00-9147-74D10032E31E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kodefoxx.Studying.CsDesignPatterns.Shared", "Shared\Kodefoxx.Studying.CsDesignPatterns.Shared\Kodefoxx.Studying.CsDesignPatterns.Shared.csproj", "{336D82D9-633A-46BA-BF03-83BA8BFF07AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kodefoxx.Studying.CsDesignPatterns.Shared", "Shared\Kodefoxx.Studying.CsDesignPatterns.Shared\Kodefoxx.Studying.CsDesignPatterns.Shared.csproj", "{336D82D9-633A-46BA-BF03-83BA8BFF07AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kodefoxx.Studying.CsDesignPatterns.Runner", "Kodefoxx.Studying.CsDesignPatterns.Runner\Kodefoxx.Studying.CsDesignPatterns.Runner.csproj", "{876B7E46-EED9-4A6F-A36F-FF5F8A868B7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kodefoxx.Studying.CsDesignPatterns.Runner", "Kodefoxx.Studying.CsDesignPatterns.Runner\Kodefoxx.Studying.CsDesignPatterns.Runner.csproj", "{876B7E46-EED9-4A6F-A36F-FF5F8A868B7C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{09378E40-C79D-498D-96A2-B97945DA2C1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto", "Creational\Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto\Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto.csproj", "{A327DDFE-83A0-42DA-B338-EC4D151EB7C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto", "Creational\Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto\Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto.csproj", "{A327DDFE-83A0-42DA-B338-EC4D151EB7C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{C3AF256B-401C-4554-80C4-39FFC22A44C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kodefoxx.Studying.CsDesignPatterns.Decorator", "Structural\Kodefoxx.Studying.CsDesignPatterns.Decorator\Kodefoxx.Studying.CsDesignPatterns.Decorator.csproj", "{76B9BFE2-1BDC-4907-9378-51AEFAE34A07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{A327DDFE-83A0-42DA-B338-EC4D151EB7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A327DDFE-83A0-42DA-B338-EC4D151EB7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A327DDFE-83A0-42DA-B338-EC4D151EB7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B9BFE2-1BDC-4907-9378-51AEFAE34A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B9BFE2-1BDC-4907-9378-51AEFAE34A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B9BFE2-1BDC-4907-9378-51AEFAE34A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B9BFE2-1BDC-4907-9378-51AEFAE34A07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,8 @@ Global
 		{336D82D9-633A-46BA-BF03-83BA8BFF07AD} = {9F22FDBF-0324-409C-8704-CA6B40847972}
 		{09378E40-C79D-498D-96A2-B97945DA2C1F} = {5E90642F-D755-4E4D-BBF9-DF8292C9AE91}
 		{A327DDFE-83A0-42DA-B338-EC4D151EB7C6} = {09378E40-C79D-498D-96A2-B97945DA2C1F}
+		{C3AF256B-401C-4554-80C4-39FFC22A44C6} = {6481DAD1-6577-41E9-8F02-71B121394E13}
+		{76B9BFE2-1BDC-4907-9378-51AEFAE34A07} = {C3AF256B-401C-4554-80C4-39FFC22A44C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD6F379B-E0E6-45C6-B382-BE842BB7327B}
