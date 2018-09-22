@@ -6,33 +6,32 @@ namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Domain
     /// Represents an account.
     /// </summary>
     [DebuggerDisplay("{Id} | {Person.FirstName} {Person.LastName}")]
-    public class Account
-    {
-        /// <summary>
-        /// The account's unique identifier.
-        /// </summary>
+    public class Account : IAccount
+    {        
+        /// <inheritdoc />
         public string Id { get; }
 
-        /// <summary>
-        /// The type of account.
-        /// </summary>
+        /// <inheritdoc />
         public AccountType Type { get; }
 
-        /// <summary>
-        /// The person who's the owner of this account.
-        /// </summary>
+        /// <inheritdoc />
         public Person Person { get; }
+
+        /// <inheritdoc />
+        public string EmailAddress { get; set; }
 
         /// <summary>
         /// Creates a new <see cref="Account"/> instance.
         /// </summary>
         /// <param name="accountType">The type of account.</param>
         /// <param name="person">The person who's the owner of this account.</param>
-        public Account(AccountType accountType, Person person)
+        /// <param name="emailAddress">The (optional) e-mail address attached to this account.</param>
+        public Account(AccountType accountType, Person person, string emailAddress = null)
         {
             Id = $"{accountType.ToString().ToUpper()}{person.Id}";
             Type = accountType;
             Person = person;
+            EmailAddress = emailAddress;
         }
 
         /// <inheritdoc />

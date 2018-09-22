@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Linq;
 using Kodefoxx.Studying.CsDesignPatterns.FactoryMethod;
 using Kodefoxx.Studying.CsDesignPatterns.Shared.Infrastructure.ConsoleDemo;
+using Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto;
 
 namespace Kodefoxx.Studying.CsDesignPatterns.Runner
 {
@@ -16,6 +16,7 @@ namespace Kodefoxx.Studying.CsDesignPatterns.Runner
         public override void RegisterAssemblies()
         {
             RegisterAssemblyByType<FactoryMethodDemo>();
+            RegisterAssemblyByType<AbstractFactoryDemo>();
         }        
     }
 }

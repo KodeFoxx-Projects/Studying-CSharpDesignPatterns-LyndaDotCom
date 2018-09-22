@@ -8,10 +8,10 @@ namespace Kodefoxx.Studying.CsDesignPatterns.FactoryMethod.EmailAddressGenerator
     public interface IEmailAddressGeneratorFactory
     {
         /// <summary>
-        /// Gets the appropriate <see cref="IEmailAddressGenerator"/> for a given <see cref="Account"/>.
+        /// Gets the appropriate <see cref="IEmailAddressGenerator"/> for a given <see cref="IAccount"/>.
         /// </summary>
-        /// <param name="account">The <see cref="Account"/>.</param>
+        /// <param name="account">The <see cref="IAccount"/>.</param>
         /// <returns>An <see cref="IEmailAddressGenerator"/>.</returns>
-        IEmailAddressGenerator GetEmailAddressGenerator(Account account);
+        IEmailAddressGenerator GetEmailAddressGenerator(IAccount account);
     }
 }

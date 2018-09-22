@@ -55,6 +55,7 @@ namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Infrastructure.ConsoleDemo
                     Console.WriteLine(headerAndFooter.Header);                    
                     RunDemo(demo);
                     Console.WriteLine(headerAndFooter.Footer);
+                    Console.WriteLine();
                 });
             }
             catch (Exception ex)

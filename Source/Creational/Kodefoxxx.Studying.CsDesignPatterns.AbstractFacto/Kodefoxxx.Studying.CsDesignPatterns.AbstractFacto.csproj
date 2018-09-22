@@ -5,4 +5,9 @@
     <AssemblyName>Kodefoxxx.Studying.CsDesignPatterns.AbstractFactory</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Kodefoxx.Studying.CsDesignPatterns.Shared\Kodefoxx.Studying.CsDesignPatterns.Shared.csproj" />
+    <ProjectReference Include="..\Kodefoxx.Studying.CsDesignPatterns.FactoryMethod\Kodefoxx.Studying.CsDesignPatterns.FactoryMethod.csproj" />
+  </ItemGroup>
+
 </Project>

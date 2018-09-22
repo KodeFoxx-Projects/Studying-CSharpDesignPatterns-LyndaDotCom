@@ -13,6 +13,6 @@ namespace Kodefoxx.Studying.CsDesignPatterns.FactoryMethod.EmailAddressGenerator
         /// <param name="account">The account to create an e-mail address for.</param>
         /// <param name="domain">The top domain used.</param>
         /// <returns>A <see cref="string"/> representing the e-mail address.</returns>
-        string GenerateEmailAddress(Account account, string domain);
+        string GenerateEmailAddress(IAccount account, string domain);
     }
 }

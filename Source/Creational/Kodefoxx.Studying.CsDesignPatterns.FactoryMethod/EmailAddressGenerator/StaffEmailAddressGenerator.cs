@@ -8,7 +8,7 @@ namespace Kodefoxx.Studying.CsDesignPatterns.FactoryMethod.EmailAddressGenerator
     public sealed class StaffEmailAddressGenerator : IEmailAddressGenerator
     {
         /// <inheritdoc />        
-        public string GenerateEmailAddress(Account account, string domain)
+        public string GenerateEmailAddress(IAccount account, string domain)
             => $"{account.Person.FirstName}.{account.Person.LastName}@{domain}"
                 .ToLower().Trim()
         ;

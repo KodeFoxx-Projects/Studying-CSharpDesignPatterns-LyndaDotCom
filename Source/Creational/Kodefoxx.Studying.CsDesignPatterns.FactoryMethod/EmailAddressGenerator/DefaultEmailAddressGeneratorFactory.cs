@@ -21,7 +21,7 @@ namespace Kodefoxx.Studying.CsDesignPatterns.FactoryMethod.EmailAddressGenerator
         ;
 
         /// <inheritdoc />
-        public IEmailAddressGenerator GetEmailAddressGenerator(Account account)
+        public IEmailAddressGenerator GetEmailAddressGenerator(IAccount account)
             => _accountToEmailAddressGeneratorMap.ContainsKey(account.Type)
                 ? _accountToEmailAddressGeneratorMap[account.Type]()
                 : throw new ArgumentException(
