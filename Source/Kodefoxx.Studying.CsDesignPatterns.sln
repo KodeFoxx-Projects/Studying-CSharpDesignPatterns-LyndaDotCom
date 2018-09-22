@@ -27,7 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kodefoxxx.Studying.CsDesign
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{C3AF256B-401C-4554-80C4-39FFC22A44C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kodefoxx.Studying.CsDesignPatterns.Decorator", "Structural\Kodefoxx.Studying.CsDesignPatterns.Decorator\Kodefoxx.Studying.CsDesignPatterns.Decorator.csproj", "{76B9BFE2-1BDC-4907-9378-51AEFAE34A07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kodefoxx.Studying.CsDesignPatterns.Decorator", "Structural\Kodefoxx.Studying.CsDesignPatterns.Decorator\Kodefoxx.Studying.CsDesignPatterns.Decorator.csproj", "{76B9BFE2-1BDC-4907-9378-51AEFAE34A07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{DCC1F3EF-4D3A-4957-B253-166CBA3EEDE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kodefoxx.Studying.CsDesignPatterns.Iterator", "Behavioral\Kodefoxx.Studying.CsDesignPatterns.Iterator\Kodefoxx.Studying.CsDesignPatterns.Iterator.csproj", "{D250783B-CBA4-4EE1-B8C7-15D68115813D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,10 @@ Global
 		{76B9BFE2-1BDC-4907-9378-51AEFAE34A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76B9BFE2-1BDC-4907-9378-51AEFAE34A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76B9BFE2-1BDC-4907-9378-51AEFAE34A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D250783B-CBA4-4EE1-B8C7-15D68115813D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D250783B-CBA4-4EE1-B8C7-15D68115813D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D250783B-CBA4-4EE1-B8C7-15D68115813D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D250783B-CBA4-4EE1-B8C7-15D68115813D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +78,8 @@ Global
 		{A327DDFE-83A0-42DA-B338-EC4D151EB7C6} = {09378E40-C79D-498D-96A2-B97945DA2C1F}
 		{C3AF256B-401C-4554-80C4-39FFC22A44C6} = {6481DAD1-6577-41E9-8F02-71B121394E13}
 		{76B9BFE2-1BDC-4907-9378-51AEFAE34A07} = {C3AF256B-401C-4554-80C4-39FFC22A44C6}
+		{DCC1F3EF-4D3A-4957-B253-166CBA3EEDE7} = {D0C2F5EC-FB7C-4404-8A9A-17B0F9F81AB0}
+		{D250783B-CBA4-4EE1-B8C7-15D68115813D} = {DCC1F3EF-4D3A-4957-B253-166CBA3EEDE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD6F379B-E0E6-45C6-B382-BE842BB7327B}
