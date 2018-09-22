@@ -1,12 +1,13 @@
 # Studying-CSharpDesignPatterns-LyndaDotCOm
 Sutyding &amp; example repo of common design patterns: https://www.lynda.com/C-tutorials/C-Design-Patterns/473890-2.html.
 
-## Creational [goto](https://github.com/KodeFoxx-Projects/Studying-CSharpDesignPatterns-LyndaDotCom/tree/master/Source/Creational)
+## Creational [>](https://github.com/KodeFoxx-Projects/Studying-CSharpDesignPatterns-LyndaDotCom/tree/master/Source/Creational)
 - [Factory Method](https://github.com/KodeFoxx-Projects/Studying-CSharpDesignPatterns-LyndaDotCom/tree/master/Source/Creational/Kodefoxx.Studying.CsDesignPatterns.FactoryMethod)
-- Abstract Factory(https://github.com/KodeFoxx-Projects/Studying-CSharpDesignPatterns-LyndaDotCom/tree/master/Source/Creational/Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto)
+- [Abstract Factory](https://github.com/KodeFoxx-Projects/Studying-CSharpDesignPatterns-LyndaDotCom/tree/master/Source/Creational/Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto)
 
-## Structural
+## Structural [>](https://github.com/KodeFoxx-Projects/Studying-CSharpDesignPatterns-LyndaDotCom/tree/master/Source/Structural)
+- [Decorator](https://github.com/KodeFoxx-Projects/Studying-CSharpDesignPatterns-LyndaDotCom/tree/master/Source/Structural/Kodefoxx.Studying.CsDesignPatterns.Decorator)
 
-## Behavioral
+## Behavioral [>](https://github.com/KodeFoxx-Projects/Studying-CSharpDesignPatterns-LyndaDotCom/tree/master/Source/Behavioral)
 
 <img src="DesignPatternCategories.jpg"/>
