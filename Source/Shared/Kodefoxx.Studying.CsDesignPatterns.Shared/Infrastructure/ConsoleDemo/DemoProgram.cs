@@ -72,15 +72,15 @@ namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Infrastructure.ConsoleDemo
         private (string Header, string Footer) GetHeaderAndFooter(IDemo demo)
         {
             var padding = "  ";
-            var lineWidth = (Console.WindowWidth + (padding.Length * 2)) /2;            
+            var lineWidth = (Console.WindowWidth + (padding.Length * 2)) / 3;
 
-            var footer = $"{padding}{new string('=', lineWidth)}{padding}";
+            var footer = $"{padding}{new string('=', lineWidth * 2)}{padding}";
             var headerText = $" {demo.Pattern} ";
-            var headerFiller = new string('=', (lineWidth - headerText.Length) / 2);
+            var headerFiller = new string('=', (lineWidth * 2 - headerText.Length) / 2);
             var header = $"{padding}{headerFiller}{headerText}{headerFiller}{padding}";
 
             if (header.Length != footer.Length)
-                header = $"{header.Substring(0, lineWidth)}=={padding}";
+                header = $"{header.Substring(0, lineWidth * 2)}=={padding}";
 
             return (header, footer);
         }
