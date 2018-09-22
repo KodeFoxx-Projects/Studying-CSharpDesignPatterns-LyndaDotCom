@@ -1,4 +1,6 @@
-﻿namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Domain
+﻿using Kodefoxx.Studying.CsDesignPatterns.Shared.Domain.People;
+
+namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Domain.Accounts
 {
     /// <summary>
     /// Represents an account.

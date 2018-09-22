@@ -1,5 +1,7 @@
 ﻿using Kodefoxx.Studying.CsDesignPatterns.FactoryMethod.EmailAddressGenerator;
 using Kodefoxx.Studying.CsDesignPatterns.Shared.Domain;
+using Kodefoxx.Studying.CsDesignPatterns.Shared.Domain.Accounts;
+using Kodefoxx.Studying.CsDesignPatterns.Shared.Domain.People;
 
 namespace Kodefoxxx.Studying.CsDesignPatterns.AbstractFacto.Accounts
 {

@@ -1,4 +1,4 @@
-﻿namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Domain
+﻿namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Domain.Accounts
 {
     /// <summary>
     /// Represents a type of <see cref="Account"/>.

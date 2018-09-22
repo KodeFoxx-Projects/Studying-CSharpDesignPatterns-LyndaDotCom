@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
+using Kodefoxx.Studying.CsDesignPatterns.Shared.Domain.People;
 
-namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Domain
+namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Domain.Accounts
 {
     /// <summary>
     /// Represents an account.

@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Domain
+namespace Kodefoxx.Studying.CsDesignPatterns.Shared.Domain.People
 {
     /// <summary>
     /// Represents a person.
